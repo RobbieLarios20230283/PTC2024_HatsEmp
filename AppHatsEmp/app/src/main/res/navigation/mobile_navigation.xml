@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="ptc.hats2024.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="ptc.hats2024.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="ptc.hats2024.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/inicio"
+        android:name="ptc.hats2024.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/servicios"
+        android:name="ptc.hats2024.servicios"
+        android:label="fragment_servicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/c_contratacion"
+        android:name="ptc.hats2024.c_contratacion"
+        android:label="fragment_c_contratacion"
+        tools:layout="@layout/fragment_c_contratacion" />
+    <fragment
+        android:id="@+id/servicios_c"
+        android:name="ptc.hats2024.servicios_c"
+        android:label="fragment_servicios_c"
+        tools:layout="@layout/fragment_servicios_c" />
+    <fragment
+        android:id="@+id/notificaciones"
+        android:name="ptc.hats2024.notificaciones"
+        android:label="fragment_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/promociones"
+        android:name="ptc.hats2024.promociones"
+        android:label="fragment_promociones"
+        tools:layout="@layout/fragment_promociones" />
+    <fragment
+        android:id="@+id/perfil"
+        android:name="ptc.hats2024.perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/infolegal"
+        android:name="ptc.hats2024.infolegal"
+        android:label="fragment_infolegal"
+        tools:layout="@layout/fragment_infolegal" />
+    <fragment
+        android:id="@+id/asistencia"
+        android:name="ptc.hats2024.asistencia"
+        android:label="fragment_asistencia"
+        tools:layout="@layout/fragment_asistencia" />
+    <fragment
+        android:id="@+id/direcciones"
+        android:name="ptc.hats2024.direcciones"
+        android:label="fragment_direcciones"
+        tools:layout="@layout/fragment_direcciones" />
+    <fragment
+        android:id="@+id/configuracion"
+        android:name="ptc.hats2024.configuracion"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+</navigation>
