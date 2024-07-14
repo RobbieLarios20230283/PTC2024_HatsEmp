@@ -35,10 +35,6 @@
         android:theme="@style/Theme.Hats_EmpPTC"
         tools:targetApi="31" >
         <activity
-            android:name=".prueba"
-            android:exported="false"
-            android:label="@string/title_activity_prueba" />
-        <activity
             android:name=".Login"
             android:exported="true" >
             <intent-filter>

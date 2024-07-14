@@ -41,7 +41,10 @@ android {
 
 dependencies {
 
+
     implementation(libs.androidx.core.ktx)
+    implementation ("com.google.firebase:firebase-analytics")
+    implementation ("com.google.firebase:firebase-storage-ktx")
     implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation ("com.google.firebase:firebase-storage:19.2.1")
