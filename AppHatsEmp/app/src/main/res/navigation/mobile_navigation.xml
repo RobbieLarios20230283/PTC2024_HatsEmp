@@ -22,5 +22,45 @@
         android:name="ptc.hats2024.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/fragment_inicio"
+        android:name="ptc.hats2024.fragment_inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragment_horario"
+        android:name="ptc.hats2024.fragment_horario"
+        android:label="fragment_horario"
+        tools:layout="@layout/fragment_horario" />
+    <fragment
+        android:id="@+id/fragment_infolegal"
+        android:name="ptc.hats2024.fragment_infolegal"
+        android:label="fragment_infolegal"
+        tools:layout="@layout/fragment_infolegal" />
+    <fragment
+        android:id="@+id/fragment_asistencia"
+        android:name="ptc.hats2024.fragment_asistencia"
+        android:label="fragment_asistencia"
+        tools:layout="@layout/fragment_asistencia" />
+    <fragment
+        android:id="@+id/fragment_servicios_c"
+        android:name="ptc.hats2024.fragment_servicios_c"
+        android:label="fragment_servicios_c"
+        tools:layout="@layout/fragment_servicios_c" />
+    <fragment
+        android:id="@+id/fragment_c_contratacion"
+        android:name="ptc.hats2024.fragment_c_contratacion"
+        android:label="fragment_c_contratacion"
+        tools:layout="@layout/fragment_c_contratacion" />
+    <fragment
+        android:id="@+id/fragment_configuracion"
+        android:name="ptc.hats2024.fragment_configuracion"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/fragment_notificaciones2"
+        android:name="ptc.hats2024.fragment_notificaciones"
+        android:label="fragment_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
 
 </navigation>
